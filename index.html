@@ -239,6 +239,22 @@
       margin-bottom: 1.6rem;
     }
 
+    .name-row {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .avatar {
+      width: 72px;
+      height: 72px;
+      border-radius: 999px;
+      object-fit: cover;
+      border: 2px solid rgba(56, 189, 248, 0.6);
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.4);
+      flex-shrink: 0;
+    }
+
     .name-block h1 {
       font-size: 1.8rem;
       color: var(--primary);
@@ -491,8 +507,13 @@
       <!-- HEADER / HERO -->
       <header>
         <div class="name-block">
-          <h1>Christian Marrero Bonilla</h1>
-          <h2>Cloud & Nutanix Solutions Architect</h2>
+          <div class="name-row">
+            <img class="avatar" src="profile.jpg" alt="Christian Marrero Bonilla" />
+            <div>
+              <h1>Christian Marrero Bonilla</h1>
+              <h2>Cloud & Nutanix Solutions Architect</h2>
+            </div>
+          </div>
           <p class="tagline">
             Hybrid & Multi-Cloud Architecture | Nutanix HCI | AWS & Azure | Disaster Recovery & BCDR
           </p>
