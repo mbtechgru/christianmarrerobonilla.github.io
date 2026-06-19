@@ -140,17 +140,13 @@
     }
 
     .logo-mark {
-      width: 40px;
-      height: 40px;
+      width: 44px;
+      height: 44px;
       border-radius: 999px;
-      background: var(--header-gradient);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
-      font-size: 0.95rem;
-      color: #f9fafb;
+      object-fit: cover;
+      background: var(--card-elevated);
       box-shadow: 0 12px 30px rgba(15, 23, 42, 0.45);
+      flex-shrink: 0;
     }
 
     .brand-text {
@@ -486,7 +482,7 @@
       <!-- TOP BRAND BAR -->
       <div class="top-bar">
         <div class="brand">
-          <div class="logo-mark">MB</div>
+          <img class="logo-mark" src="mb-logo.png" alt="MB Technology Group LLC" />
           <div class="brand-text">
             <span>MB Technology Group LLC</span>
             <strong>Cloud · Infrastructure · Security</strong>
