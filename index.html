@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Christian Marrero Bonilla – Cloud & Infrastructure Architect</title>
+  <title>Christian Marrero Bonilla – Cloud & Nutanix Solutions Architect</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Online resume for Christian Marrero Bonilla – Principal Architect & Co-Founder at MB Technology Group LLC, specializing in cloud, infrastructure, and hybrid-cloud solutions." />
+  <meta name="description" content="Online resume for Christian Marrero Bonilla – Cloud & Nutanix Solutions Architect specializing in hybrid & multi-cloud architecture, Nutanix HCI, AWS & Azure, and disaster recovery/BCDR." />
 
   <style>
     /* ========= BRANDING & THEME ========= */
@@ -30,30 +30,40 @@
       --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.75);
       --link: #38bdf8;
       --link-hover: #7dd3fc;
+      --body-edge: #1f2937;
+      --body-deep: #020617;
+      --header-bg: rgba(15, 23, 42, 0.96);
+      --item-bg: rgba(15, 23, 42, 0.85);
+      --item-bg-soft: rgba(15, 23, 42, 0.8);
     }
 
     body.light {
-      /* Optional “true light mode” overrides if user toggles */
-      --bg: #f3f4f6;
-      --bg-page: #e5e7eb;
-      --card-bg: #ffffff;
-      --card-elevated: #f9fafb;
-      --primary: #111827;
-      --secondary: #4b5563;
-      --accent: #2563eb;
-      --accent-soft: rgba(37, 99, 235, 0.06);
-      --border-subtle: #e5e7eb;
-      --chip-bg: #e5edff;
-      --chip-text: #1d4ed8;
-      --header-gradient: linear-gradient(135deg, #2563eb, #0ea5e9);
-      --button-bg: #2563eb;
-      --button-text: #ffffff;
+      /* Muted "true light mode" overrides if user toggles */
+      --bg: #e9ebef;
+      --bg-page: #dde1e7;
+      --card-bg: #eef0f3;
+      --card-elevated: #e7e9ed;
+      --primary: #1f2937;
+      --secondary: #5b6472;
+      --accent: #3b5fc4;
+      --accent-soft: rgba(59, 95, 196, 0.08);
+      --border-subtle: #d3d7dd;
+      --chip-bg: #dde3f0;
+      --chip-text: #2d4ea3;
+      --header-gradient: linear-gradient(135deg, #3b5fc4, #2f7fb0);
+      --button-bg: #3b5fc4;
+      --button-text: #f5f6f8;
       --button-bg-alt: transparent;
-      --button-text-alt: #111827;
-      --button-border-alt: #d1d5db;
-      --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.15);
-      --link: #2563eb;
-      --link-hover: #1d4ed8;
+      --button-text-alt: #1f2937;
+      --button-border-alt: #c4c9d1;
+      --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.12);
+      --link: #3b5fc4;
+      --link-hover: #2d4ea3;
+      --body-edge: #ccd1da;
+      --body-deep: #dde1e7;
+      --header-bg: #e7e9ed;
+      --item-bg: #e3e6eb;
+      --item-bg-soft: #dde2ea;
     }
 
     /* ========= GLOBAL RESET ========= */
@@ -65,7 +75,7 @@
 
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: radial-gradient(circle at top, #1f2937 0, var(--bg-page) 40%, #020617 100%);
+      background: radial-gradient(circle at top, var(--body-edge) 0, var(--bg-page) 40%, var(--body-deep) 100%);
       color: var(--primary);
       line-height: 1.6;
       min-height: 100vh;
@@ -220,7 +230,7 @@
       border-radius: 14px;
       padding: 1.4rem 1.3rem;
       background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), transparent 55%),
-                  linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.96));
+                  linear-gradient(135deg, var(--header-bg), var(--header-bg));
       border: 1px solid rgba(148, 163, 184, 0.35);
       display: flex;
       flex-wrap: wrap;
@@ -315,9 +325,9 @@
       margin-bottom: 1rem;
       padding: 0.7rem 0.8rem;
       border-radius: 10px;
-      background: radial-gradient(circle at top left, rgba(15, 23, 42, 0.8), transparent 60%),
-                  radial-gradient(circle at bottom right, rgba(15, 23, 42, 0.8), transparent 60%),
-                  rgba(15, 23, 42, 0.85);
+      background: radial-gradient(circle at top left, var(--item-bg-soft), transparent 60%),
+                  radial-gradient(circle at bottom right, var(--item-bg-soft), transparent 60%),
+                  var(--item-bg);
       border: 1px solid rgba(148, 163, 184, 0.35);
     }
 
@@ -358,7 +368,7 @@
       margin-bottom: 0.45rem;
       padding: 0.45rem 0.5rem;
       border-radius: 8px;
-      background: rgba(15, 23, 42, 0.85);
+      background: var(--item-bg);
       border: 1px solid rgba(148, 163, 184, 0.3);
     }
 
@@ -483,21 +493,20 @@
       <header>
         <div class="name-block">
           <h1>Christian Marrero Bonilla</h1>
-          <h2>Principal Architect & Co-Founder · MB Technology Group LLC</h2>
+          <h2>Cloud & Nutanix Solutions Architect</h2>
           <p class="tagline">
-            Designing secure, scalable hybrid-cloud and virtualization solutions across AWS, Azure, VMware, and Nutanix
-            for mission-critical and regulated environments.
+            Hybrid & Multi-Cloud Architecture | Nutanix HCI | AWS & Azure | Disaster Recovery & BCDR
           </p>
         </div>
         <div class="contact">
-          <!-- TODO: replace with your real email + links -->
+          <div><a href="tel:+15712786415">(571) 278-6415</a></div>
           <div><a href="mailto:christian.marrero@mbtechnologygroup.com">christian.marrero@mbtechnologygroup.com</a></div>
           <div>
             <a href="https://www.linkedin.com/in/christian-marrero-183829146/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
             <a href="https://github.com/mbtechgru" target="_blank" rel="noopener noreferrer">GitHub</a> ·
             <a href="https://dailycloudblog.com" target="_blank" rel="noopener noreferrer">Daily Cloud Blog</a>
           </div>
-          <div>Based in Virginia · Open to Remote & C2C</div>
+          <div>Based in Virginia · Active Secret Clearance · Bilingual (English/Spanish)</div>
         </div>
       </header>
 
@@ -506,11 +515,13 @@
         <h3>Summary</h3>
         <div class="section-divider"></div>
         <p class="summary">
-          Cloud and infrastructure architect with extensive experience designing and implementing hybrid-cloud
-          strategies, virtualization platforms, and enterprise-grade disaster recovery solutions. Proven history
-          delivering secure, resilient architectures across AWS, Azure, VMware, and Nutanix. Adept at turning business
-          requirements into actionable designs, leading cross-functional teams, and enforcing best-practice governance,
-          security, and automation.
+          Cloud & Nutanix architecture professional with 10+ years designing, deploying, and modernizing hybrid and
+          multi-cloud infrastructure across AWS, Azure, and Nutanix HCI. Brings a rare 360° view of the Nutanix
+          ecosystem — having served as a Nutanix Systems Engineer, Portfolio Specialist, and pre-sales architect —
+          paired with hands-on enterprise experience re-architecting clusters, leading hybrid cloud strategy, and
+          modernizing legacy data centers as a practitioner. Skilled in BCDR/disaster recovery architecture,
+          Infrastructure-as-Code automation (Terraform, PowerShell, Ansible), and translating business requirements
+          into resilient, cost-optimized infrastructure. Active Secret Security Clearance. Bilingual: English/Spanish.
         </p>
       </section>
 
@@ -519,18 +530,20 @@
         <h3>Key Skills</h3>
         <div class="section-divider"></div>
         <div class="chips">
-          <span class="chip">AWS Architecture</span>
-          <span class="chip">Microsoft Azure </span>
-          <span class="chip">Hybrid Cloud Strategy</span>
-          <span class="chip">VMware vSphere</span>
-          <span class="chip">Nutanix AHV</span>
-          <span class="chip">Storage & Backup</span>
-          <span class="chip">Disaster Recovery (RPO/RTO)</span>
-          <span class="chip">Terraform / IaC</span>
-          <span class="chip">Windows & Linux Server</span>
-          <span class="chip">Networking & VPN (AWS/Azure to On-Prem)</span>
-          <span class="chip">Security & Compliance</span>
-          <span class="chip">Technical Leadership & Mentoring</span>
+          <span class="chip">Nutanix AHV / NC2 / Mine / Xi Leap DRaaS</span>
+          <span class="chip">Nutanix Unified Storage</span>
+          <span class="chip">Cisco UCS</span>
+          <span class="chip">AWS (EC2, S3, VPC, IAM, EKS, ECS)</span>
+          <span class="chip">Azure (Compute, Storage, Backup, Entra ID)</span>
+          <span class="chip">Zerto / Commvault Cloud / Veeam / HYCU / Rubrik</span>
+          <span class="chip">Terraform / PowerShell / Chef / Ansible</span>
+          <span class="chip">GitHub CI/CD</span>
+          <span class="chip">VMware vSphere / Hyper-V</span>
+          <span class="chip">OpenShift / Kubernetes / Docker</span>
+          <span class="chip">NetApp / Pure Storage / Tintri / Dell / Panzura</span>
+          <span class="chip">Cisco DC Networking / iSCSI / Fibre Channel</span>
+          <span class="chip">Active Directory / DNS/DHCP / M365 / Defender</span>
+          <span class="chip">Windows Server / RHEL / Ubuntu / Kali Linux</span>
         </div>
       </section>
 
@@ -542,42 +555,96 @@
 
           <div class="item">
             <div class="item-header">
-              <span>Principal Architect & Co-Founder</span>
-              <span>2024 – Present</span>
+              <span>Principal Consultant & Co-Founder</span>
+              <span>Jan 2024 – Present</span>
             </div>
-            <div class="item-sub">MB Technology Group LLC · Remote</div>
+            <div class="item-sub">MB Technology Group LLC</div>
             <ul>
-              <li>Lead design and implementation of AWS and Azure hybrid-cloud architectures for small to mid-size enterprise clients.</li>
-              <li>Define best-practice frameworks for cloud governance, security baselines, backup, and DR across multi-cloud environments.</li>
-              <li>Architect and review infrastructure solutions covering server, storage, virtualization, networking, and automation.</li>
-              <li>Develop reusable reference architectures, deployment guides, and Terraform templates to accelerate client onboarding.</li>
+              <li>Co-founded and lead a technology consulting practice delivering cloud and Nutanix architecture, hybrid infrastructure, and disaster recovery solutions for small and mid-sized enterprises.</li>
+              <li>Architect end-to-end multi-cloud solutions on AWS and Azure, including workload migrations, BCDR design, and infrastructure optimization for client engagements.</li>
+              <li>Design and implement Infrastructure-as-Code automation using Terraform and PowerShell to standardize deployments and reduce manual configuration effort.</li>
+              <li>Serve as technical lead across client engagements, conducting architecture reviews and hands-on implementation support.</li>
             </ul>
           </div>
 
           <div class="item">
             <div class="item-header">
-              <span>Senior Infrastructure / Cloud Engineer</span>
-              <span>2022 – Present</span>
+              <span>Healthcare Systems Engineer</span>
+              <span>Aug 2024 – Mar 2025</span>
             </div>
-            <div class="item-sub">RS&amp;H · Remote</div>
+            <div class="item-sub">Nutanix</div>
             <ul>
-              <li>Lead efforts to develop and architect a public-cloud strategy focused on hybrid adoption across AWS and Azure.</li>
-              <li>Manage virtualization platforms (VMware / Nutanix) and core data center infrastructure supporting enterprise workloads.</li>
-              <li>Design and implement DR strategies improving RPO/RTO for key business services and regulated applications.</li>
-              <li>Collaborate with security and application teams to ensure compliance, performance, and operational excellence.</li>
+              <li>Architected and sized Nutanix HCI solutions for healthcare customers, translating clinical and operational requirements into resilient infrastructure designs.</li>
+              <li>Partnered with sales counterparts to develop account plans, customer persona coverage models, and solution proposals aligning Nutanix offerings to business goals.</li>
+              <li>Built long-term, trusted-advisor relationships with healthcare customers and partners, demonstrating Nutanix capabilities and articulating cloud and digital transformation strategies.</li>
+              <li>Channeled customer feedback into the Nutanix product ecosystem, informing roadmap and solution design.</li>
             </ul>
           </div>
 
           <div class="item">
             <div class="item-header">
-              <span>Infrastructure / Systems Engineer</span>
-              <span>2016 – 2024</span>
+              <span>IT Infrastructure Engineer (Consultant)</span>
+              <span>Feb 2022 – Present</span>
             </div>
-            <div class="item-sub">Previous Employers (Nutanix, LifeNet Health, CVENT, etc.)</div>
+            <div class="item-sub">RS&amp;H</div>
             <ul>
-              <li>Supported enterprise server, storage, and virtualization platforms across multi-site environments.</li>
-              <li>Led migrations, upgrades, and performance tuning projects across Windows, Linux, and hypervisor stacks.</li>
-              <li>Partnered with stakeholders to troubleshoot complex infrastructure issues and reduce unplanned downtime.</li>
+              <li>Lead architecture and strategy for hybrid cloud adoption across AWS and Azure platforms, currently driving the organization's public cloud roadmap.</li>
+              <li>Architect and lead modernization of virtualization, compute, and storage infrastructure across primary data centers and remote sites.</li>
+              <li>Re-architected Nutanix clusters to align with hybrid cloud best practices, reducing operational complexity and infrastructure costs.</li>
+              <li>Spearheaded a Commvault Cloud backup solution and Zerto DR architecture for cloud-integrated business continuity.</li>
+              <li>Deployed Panzura global file system across remote offices, improving file accessibility and cloud storage performance.</li>
+              <li>Led an enterprise-wide VMware vSphere upgrade across distributed environments.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span>Portfolio Specialist, Data Center Services</span>
+              <span>Nov 2020 – Feb 2022</span>
+            </div>
+            <div class="item-sub">Nutanix</div>
+            <ul>
+              <li>Served as SME for Nutanix Data Services and BCDR solutions integrated with AWS and Azure.</li>
+              <li>Supported lab infrastructure running Nutanix AHV, ESXi, and multiple cloud backup technologies for proof-of-concept and pre-sales validation.</li>
+              <li>Mentored engineers, built enablement programs, and provided technical leadership for pre-sales architecture across the portfolio team.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span>Systems Engineer</span>
+              <span>May 2018 – Nov 2020</span>
+            </div>
+            <div class="item-sub">Nutanix</div>
+            <ul>
+              <li>Engineered hybrid cloud DR architectures using Nutanix Mine, Xi Leap DRaaS, and Zerto for enterprise customers.</li>
+              <li>Delivered customer bootcamps, webinars, and technical enablement sessions at industry events including Microsoft Ignite.</li>
+              <li>Led deployments and automation for HCI, VDI, and cloud workload POC environments.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span>Sr. Systems Engineer</span>
+              <span>Jul 2017 – May 2018</span>
+            </div>
+            <div class="item-sub">LifeNet Health</div>
+            <ul>
+              <li>Guided infrastructure replatforming for Azure cloud readiness, minimizing refactoring overhead for mission-critical systems.</li>
+              <li>Implemented a Rubrik backup architecture with Azure Blob tiering and iLAND DRaaS, doubling BCDR efficiency.</li>
+              <li>Architected high-performance Pure Storage environments supporting Exchange and other mission-critical workloads.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span>Sr. System Engineer, Infrastructure & Virtualization</span>
+              <span>Sep 2016 – Jul 2017</span>
+            </div>
+            <div class="item-sub">CVENT INC</div>
+            <ul>
+              <li>Supported global infrastructure operations and led early AWS adoption, advocating for DevOps culture integration.</li>
+              <li>Deployed hybrid environments using Pure Storage, VMware, and AWS-based automation initiatives.</li>
             </ul>
           </div>
         </div>
@@ -624,21 +691,26 @@
           <h3>Certifications</h3>
           <div class="section-divider"></div>
           <ul class="cert-list">
+            <li>Nutanix Certified Professional (NCP), NCAP, NCSE, NCS-C</li>
             <li>AWS Certified Solutions Architect – Associate</li>
-            <li>VMware Certified Professional (VCP)</li>
-            <li>Nutanix Certified Professional (MCI, EUC, Unified Storage)</li>
-            <li>Additional Nutanix credentials (NCSE, University Expert, Services)</li>
-            <li>Commvault Solution Architect</li>
-            <li>HYCU Enterprise Cloud Architect</li>
-            <li>CompTIA Network +</li>
-            <!-- Add Azure / security certs if applicable -->
+            <li>VMware Certified Professional (VCP-DCV)</li>
+            <li>Microsoft Certified Professional (Server 2008)</li>
+            <li>CompTIA Network+</li>
           </ul>
 
           <h3>Education</h3>
           <div class="section-divider"></div>
           <p class="summary">
-            Bachelors Degree in Computer and Information Science, ECPI University, 2012<br />
-            Currently serving in the U.S. Navy Reserve with over 12 Years with multiple Combat Deployments
+            B.S. in Computer and Information Science – Network Management and Security<br />
+            ECPI University, Virginia Beach, VA
+          </p>
+
+          <h3>Military Service</h3>
+          <div class="section-divider"></div>
+          <p class="summary">
+            U.S. Navy Reserve – Active Reservist<br />
+            Combat Veteran – Afghanistan Campaign Medal Recipient, Horn of Africa<br />
+            Served with Coastal Riverine Squadron 10 &amp; 6, 4th Platoon, PRT Farah, Afghanistan
           </p>
         </div>
       </section>
